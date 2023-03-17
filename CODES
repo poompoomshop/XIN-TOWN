@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("[XIN TOWN] [QUICK PANEL ] ", "DarkTheme",Enum.KeyCode.RightControl)
+local Window = Library.CreateLib("[XIN TOWN] [QUICK PANEL] TND TONADO ", "DarkTheme",Enum.KeyCode.RightControl)
 local Tab = Window:NewTab("[+] TELEPORT")
 ------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -345,47 +345,47 @@ end)
 
 
 local Section = Tab:NewSection("ORES")
-Section:NewButton("x1 diamond", "u can got banned form xin town", function()
+Section:NewButton("x100 diamond", "u can got banned form xin town", function()
 
 local args = {
     [1] = "DiamondOres",
     [2] = 0,
     [3] = "Diamonds",
-    [4] = 10000000000000000000000000000000000000000000000000000000,
+    [4] = 100,
     [5] = false
 }
 wait(10)
 
-game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
-Section:NewButton("x1 gold ", "u can got banned form xin town", function()
+Section:NewButton("x100 gold ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "GoldOres",
     [2] = 0,
     [3] = "GoldIngot",
-    [4] = 1,
+    [4] = 100,
     [5] = false
 }
 wait(10)
-game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 
 end)
 
-Section:NewButton("x1 copper ", "u can got banned form xin town", function()
+Section:NewButton("x100 copper ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "CopperOre",
     [2] = 0,
     [3] = "Copper",
-    [4] = 1,
+    [4] = 100,
     [5] = false
 }
 wait(10)
-game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 
 end)
@@ -393,34 +393,34 @@ end)
 
 
 
-Section:NewButton("x1 iron ", "u can got banned form xin town", function()
+Section:NewButton("x100 iron ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "MetalScarp",
     [2] = 0,
     [3] = "Ironingot",
-    [4] = 1,
+    [4] = 100,
     [5] = false
 }
 wait(10)
-game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
 
 
 
-Section:NewButton("x1 pack meat ", "u can got banned form xin town", function()
+Section:NewButton("x100 pack meat ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "Raw Meat",
     [2] = 0,
     [3] = "PackMeat",
-    [4] = 1,
+    [4] = 100,
     [5] = false
 }
 wait(10)
-game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("FoodProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("FoodProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
