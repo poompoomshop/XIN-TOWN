@@ -338,7 +338,8 @@ local args = {
     [6] = "Stone"
 }
 wait(1)
-game:GetService("Players"):WaitForChild("loadstring(game:HttpGet("https://raw.githubusercontent.com/poompoomshop/XIN-TOWN/main/CODES", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Pangpreamism09uAqe", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Krvxian_5984", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
@@ -357,6 +358,7 @@ local args = {
 wait(10)
 
 game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Krvxian_5984", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
@@ -371,6 +373,7 @@ local args = {
 }
 wait(10)
 game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Krvxian_5984", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 
 end)
@@ -386,6 +389,7 @@ local args = {
 }
 wait(10)
 game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Krvxian_5984", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 
 end)
@@ -404,6 +408,7 @@ local args = {
 }
 wait(10)
 game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Krvxian_5984", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
@@ -421,6 +426,7 @@ local args = {
 }
 wait(10)
 game:GetService("Players"):WaitForChild("Pangpreamism09uAqe"):WaitForChild("PlayerGui"):WaitForChild("FoodProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("Krvxian_5984", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
