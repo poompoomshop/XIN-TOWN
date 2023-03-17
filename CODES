@@ -291,7 +291,7 @@ local args = {
     [1] = "StoneOre",
     [2] = 0,
     [3] = "StoneOre",
-    [4] = 1,
+    [4] = 40000,
     [5] = true,
     [6] = "Stone"
 }
