@@ -1,24 +1,71 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("XIN TOWN! [PREMIUM] ", "Midnight",Enum.KeyCode.RightControl)
-local Tab = Window:NewTab("TELEPORT")
-local Section = Tab:NewSection("PLACED (SAFE SPOT!)")
+local Window = Library.CreateLib("[XIN TOWN] [QUICK PANEL ] ", "DarkTheme",Enum.KeyCode.RightControl)
+local Tab = Window:NewTab("[+] TELEPORT")
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+local Section = Tab:NewSection("-PLACE-")
 
 Section:NewButton("LEBEL(SAFE)", "lebel", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3606.04761, 18.7343826, -4153.4082, 0.997759283, -0.0297038276, -0.0599504411, 0.0289611313, 0.999493122, -0.0132198231, 0.0603127331, 0.0114539685, 0.998113811)
 end)
 
-Section:NewButton("poll (SAFE)", "lebel", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2984.98535, 19.7181721, -591.880554, 0.945346773, 0.325815022, -0.0128071085, -0.325894475, 0.942842245, -0.0695797354, -0.0105950404, 0.0699507445, 0.997494161)
+
+Section:NewButton("SELL (SAFE)", "ez", function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-90.7415771, 21.9687576, -1079.93384, -0.0528326035, 0.0179674476, 0.998441696, 0.0337637663, 0.999298573, -0.0161962584, -0.998032451, 0.0328554623, -0.0534021854)
 end)
+
+
+
 
 Section:NewButton("SHOP (NOT SAFE!)", "SHOP", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1480.62378, 21.6347733, 258.20224, -0.100222707, 0.0154119469, 0.994845688, 0.0259473622, 0.999580443, -0.012871312, -0.994626701, 0.0245236252, -0.100580573)
 end)
 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+local Section = Tab:NewSection("-GARAGE & PROCESS-")
+
+
 Section:NewButton("GARAGE (SAFE)", "eez", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1313.92175, 20.7187576, 900.164734, 0.364899755, 0.000917057507, 0.931046426, 0.0254456066, 0.999616146, -0.01095735, -0.93069905, 0.027689375, 0.364736319)
 end)
+
+
+Section:NewButton("poll (SAFE)", "lebel", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2984.98535, 19.7181721, -591.880554, 0.945346773, 0.325815022, -0.0128071085, -0.325894475, 0.942842245, -0.0695797354, -0.0105950404, 0.0699507445, 0.997494161)
+end)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+local Section = Tab:NewSection("-FARMING-")
+
+Section:NewButton("FARM (SAFE)", "ez", function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1429.17517, 20.7187576, -3133.1438, -0.998477936, 0.0343670025, 0.0431362353, 0.036031425, 0.998611867, 0.0384198576, -0.041755978, 0.0399156436, -0.998330235)
+end)
+
+
+
+Section:NewButton("BANANA (NOT SAFE)", "banana", function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1977.87866, 16.4531212, -613.342957, 0.40679127, 0.131235555, 0.904045403, -0.208283469, 0.976885617, -0.0480885468, -0.889459908, -0.168735698, 0.424722731)
+end)
+
+
+Section:NewButton("MINE (SAFE)", "ez", function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2493.32031, -31.0000191, -3469.59375, 0.912094712, -0.0374569334, -0.408264875, 0.0337790437, 0.999297738, -0.0162172765, 0.408585608, 0.00100089936, 0.912719488)
+end)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+local Section = Tab:NewSection("-JOK POON-")
+
 
 Section:NewButton("JOKPOON v1 (NOT SAFE!)", "eez", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1397.9032, 21.7685623, -618.962585, -0.952407241, 0.0291413758, 0.303432912, 0.0268076304, 0.99957031, -0.0118546113, -0.303647965, -0.003156099, -0.952779174)
@@ -29,27 +76,13 @@ Section:NewButton("JOKPOON v2 (IDK)", "ez", function()
 end)
 
 
-Section:NewButton("BANANA (NOT SAFE)", "banana", function()
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1977.87866, 16.4531212, -613.342957, 0.40679127, 0.131235555, 0.904045403, -0.208283469, 0.976885617, -0.0480885468, -0.889459908, -0.168735698, 0.424722731)
-end)
 
-Section:NewButton("MINE (SAFE)", "ez", function()
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2493.32031, -31.0000191, -3469.59375, 0.912094712, -0.0374569334, -0.408264875, 0.0337790437, 0.999297738, -0.0162172765, 0.408585608, 0.00100089936, 0.912719488)
-end)
-
-Section:NewButton("FARM (SAFE)", "ez", function()
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1429.17517, 20.7187576, -3133.1438, -0.998477936, 0.0343670025, 0.0431362353, 0.036031425, 0.998611867, 0.0384198576, -0.041755978, 0.0399156436, -0.998330235)
-end)
-
-Section:NewButton("SELL (SAFE)", "ez", function()
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-90.7415771, 21.9687576, -1079.93384, -0.0528326035, 0.0179674476, 0.998441696, 0.0337637663, 0.999298573, -0.0161962584, -0.998032451, 0.0328554623, -0.0534021854)
-end)
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
-local Tab = Window:NewTab("EAT FOOD")
+local Tab = Window:NewTab("[+] QUICK ATE")
 local Section = Tab:NewSection("LIST FOOD (ONLY IN INVENTORY!!)")
 Section:NewButton("x1 banana", "mam", function()
 -- Script generated by R2Sv2
@@ -63,29 +96,8 @@ local Event = game:GetService("ReplicatedStorage").Rebuild.Remote.Event
 Event:FireServer(A_1, A_2, A_3, A_4)
 
 end)
-Section:NewButton("x1 MaMa", "mam", function()
 
-local A_1 = "Inventory"
-local A_2 = "Use"
-local A_3 = "MaMa"
-local A_4 = 1
-local Event = game:GetService("ReplicatedStorage").Rebuild.Remote.Event
-Event:FireServer(A_1, A_2, A_3, A_4)
 
-end)
-
-Section:NewButton("x5 mama", "MAMA", function()
--- Script generated by R2Sv2
--- R2Sv2 developed by Luckyxero
- Section:NewLabel("ate mama")
-local A_1 = "Inventory"
-local A_2 = "Use"
-local A_3 = "MaMa"
-local A_4 = 5
-local Event = game:GetService("ReplicatedStorage").Rebuild.Remote.Event
-Event:FireServer(A_1, A_2, A_3, A_4)
-
-end)
 
 Section:NewButton("x5 banana", "banna", function()
 -- Script generated by R2Sv2
@@ -101,11 +113,41 @@ Event:FireServer(A_1, A_2, A_3, A_4)
 end)
 
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+local Section = Tab:NewSection("MAMA")
+
+
+Section:NewButton("x1 MaMa", "mam", function()
+
+local A_1 = "Inventory"
+local A_2 = "Use"
+local A_3 = "MaMa"
+local A_4 = 1
+local Event = game:GetService("ReplicatedStorage").Rebuild.Remote.Event
+Event:FireServer(A_1, A_2, A_3, A_4)
+
+end)
+
+Section:NewButton("x5 MAMA", "MAMA", function()
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+local A_1 = "Inventory"
+local A_2 = "Use"
+local A_3 = "MaMa"
+local A_4 = 5
+local Event = game:GetService("ReplicatedStorage").Rebuild.Remote.Event
+Event:FireServer(A_1, A_2, A_3, A_4)
+
+end)
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
-local Tab = Window:NewTab("EQUIP")
+local Tab = Window:NewTab("[+] QUICK EQUIP")
 local Section = Tab:NewSection("(ONLY INVENTORY SAFE !)")
 Section:NewButton("REPAIRKIT", "EZ", function()
    -- Script generated by R2Sv2
@@ -187,11 +229,11 @@ game:GetService("ReplicatedStorage"):WaitForChild("Rebuild"):WaitForChild("Remot
 end)
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-local Tab = Window:NewTab("SHOP(near npc)")
+local Tab = Window:NewTab("[+] QUICK BUY")
 local Section = Tab:NewSection("-RepairKit-")
 Section:NewButton("x3 REPAIRKIT 8000 bath", "8000", function()
 -- Script generated by R2Sv2
--- R2Sv2 developed by Luckyxero]
+-- R2Sv2 developed by Lckyxero]
  
 local A_1 = "Market"
 local A_2 = "Buy"
@@ -284,82 +326,65 @@ end)
 Section:NewLabel("yooo kai kai shop wai ja dai mai don tae    NAJA")
 
 
-local Tab = Window:NewTab("poll")
+local Tab = Window:NewTab("[+] QUICK PROCESS")
 local Section = Tab:NewSection("DISTANCE MODE SAFE")
 Section:NewButton("poll x1 stone", "u can got banned form xin town", function()
 local args = {
     [1] = "StoneOre",
     [2] = 0,
     [3] = "StoneOre",
-    [4] = 40000,
+    [4] = 2, --mark number if u need but beware banned
     [5] = true,
     [6] = "Stone"
 }
-
+wait(1)
 game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
 
 
-local Section = Tab:NewSection("diamond")
-Section:NewButton("free x1 diamond", "u can got banned form xin town", function()
+local Section = Tab:NewSection("ORES")
+Section:NewButton("x1 diamond", "u can got banned form xin town", function()
 
 local args = {
     [1] = "DiamondOres",
     [2] = 0,
     [3] = "Diamonds",
-    [4] = 100,
+    [4] = 10000000000000000000000000000000000000000000000000000000,
     [5] = false
 }
+wait(10)
 
 game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
-
-
-Section:NewButton("x750 white money ", "u can got banned form xin town", function()
-
-local args = {
-    [1] = "Cement",
-    [2] = 0,
-    [3] = "WhiteMoney",
-    [4] = 750,
-    [5] = false
-}
-
-game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("illegalProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
-
-end)
-
-
-
-Section:NewButton("x10 gold ", "u can got banned form xin town", function()
+Section:NewButton("x1 gold ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "GoldOres",
     [2] = 0,
     [3] = "GoldIngot",
-    [4] = 10,
+    [4] = 1,
     [5] = false
 }
-
+wait(10)
 game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 
 end)
 
-Section:NewButton("x10 copper ", "u can got banned form xin town", function()
+Section:NewButton("x1 copper ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "CopperOre",
     [2] = 0,
     [3] = "Copper",
-    [4] = 10,
+    [4] = 1,
     [5] = false
 }
-
+wait(10)
 game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 
@@ -368,16 +393,16 @@ end)
 
 
 
-Section:NewButton("x10 iron ", "u can got banned form xin town", function()
+Section:NewButton("x1 iron ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "MetalScarp",
     [2] = 0,
     [3] = "Ironingot",
-    [4] = 10,
+    [4] = 1,
     [5] = false
 }
-
+wait(10)
 game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
@@ -385,18 +410,22 @@ end)
 
 
 
-Section:NewButton("x100 pack meat ", "u can got banned form xin town", function()
+Section:NewButton("x1 pack meat ", "u can got banned form xin town", function()
 
 local args = {
     [1] = "Raw Meat",
     [2] = 0,
     [3] = "PackMeat",
-    [4] = 100,
+    [4] = 1,
     [5] = false
 }
-
+wait(10)
 game:GetService("Players"):WaitForChild("LocalPlayer"):WaitForChild("PlayerGui"):WaitForChild("FoodProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 end)
 
-------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local Tab = Window:NewTab("[!] DISCORD")
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local Tab = Window:NewTab("[!] FIX NOTE")
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
