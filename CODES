@@ -358,7 +358,7 @@ local args = {
     [4] = 100,
     [5] = false
 }
-wait(10)
+wait(1)
 
 game:GetService("Players"):WaitForChild("Krvxian_5984"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
@@ -373,7 +373,7 @@ local args = {
     [4] = 100,
     [5] = false
 }
-wait(10)
+wait(1)
 game:GetService("Players"):WaitForChild("Krvxian_5984"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
 
@@ -388,7 +388,7 @@ local args = {
     [4] = 100,
     [5] = false
 }
-wait(10)
+wait(1)
 
 game:GetService("Players"):WaitForChild("Krvxian_5984"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
@@ -407,7 +407,7 @@ local args = {
     [4] = 100,
     [5] = false
 }
-wait(10)
+wait(1)
 
 game:GetService("Players"):WaitForChild("Krvxian_5984"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
@@ -425,7 +425,7 @@ local args = {
     [4] = 100,
     [5] = false
 }
-wait(10)
+wait(1)
 
 game:GetService("Players"):WaitForChild("Krvxian_5984"):WaitForChild("PlayerGui"):WaitForChild("OreProcess"):WaitForChild("Remote"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 
